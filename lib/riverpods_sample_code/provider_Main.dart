@@ -46,7 +46,7 @@ class ProviderMain extends ConsumerWidget {
         }
 
         if (state is PostLoadingPostState) {
-          return Text("Press to data fetch");
+          return Text("Press to fab icon for data fetch");
         }
 
         if (state is InitialPostState) {
